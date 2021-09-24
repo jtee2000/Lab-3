@@ -1,0 +1,19 @@
+.building-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.container3 div {
+  width: 50%;
+}
+
+.building-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
