@@ -41,7 +41,7 @@ d3.csv('cities.csv', d3.autoType).then(data => {
 
 let filteredData2;
 d3.csv('buildings.csv', d3.autoType).then(data => {
-    filteredData2 = data.sort((x, y) => x - y)
+    filteredData2 = data.sort((x, y) => x.height_ft - y.height_ft).reverse()
 
     const width = 500;
     const height = 500;
